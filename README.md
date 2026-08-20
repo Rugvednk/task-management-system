@@ -6,8 +6,9 @@ A full-stack, pixel-perfect **Task Management System** built as an assessment pr
 
 ## 🔗 Live Demo
 
-> **Frontend:** _[Deployed URL will be added]_
-> **Backend API:** _[Deployed URL will be added]_
+- **Frontend Application (Live):** [https://task-management-system-iota-ten.vercel.app](https://task-management-system-iota-ten.vercel.app)
+- **Backend API (Live):** [https://task-management-system-7v14.onrender.com](https://task-management-system-7v14.onrender.com)
+- **GitHub Repository:** [https://github.com/Rugvednk/task-management-system](https://github.com/Rugvednk/task-management-system)
 
 ---
 
