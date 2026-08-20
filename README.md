@@ -9,6 +9,7 @@ A full-stack, pixel-perfect **Task Management System** built as an assessment pr
 - **Frontend Application (Live):** [https://task-management-system-iota-ten.vercel.app](https://task-management-system-iota-ten.vercel.app)
 - **Backend API (Live):** [https://task-management-system-7v14.onrender.com](https://task-management-system-7v14.onrender.com)
 - **GitHub Repository:** [https://github.com/Rugvednk/task-management-system](https://github.com/Rugvednk/task-management-system)
+- **Part 2 Product Understanding:** [PART_2_PRODUCT_UNDERSTANDING.md](./PART_2_PRODUCT_UNDERSTANDING.md)
 
 ---
 
