@@ -4,8 +4,7 @@ import { useEffect, useState, ChangeEvent } from "react";
 import Link from "next/link";
 import { ArrowLeft, Search, User, Sun, Palette, Edit2, Check, Upload, Camera } from "lucide-react";
 import ThemeMenu from "../components/ThemeMenu";
-
-const API_URL = "http://localhost:3001";
+import { API_URL } from "../lib/api";
 
 const avatarPresets = [
   { id: "preset1", label: "Dexter Avatar", color: "from-purple-500 to-pink-500", letter: "D" },

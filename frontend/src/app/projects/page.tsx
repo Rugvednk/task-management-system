@@ -21,6 +21,7 @@ import {
 } from "lucide-react";
 import ThemeMenu from "../components/ThemeMenu";
 import Sidebar from "../components/Sidebar";
+import { API_URL } from "../lib/api";
 
 type Project = {
   id: string;
@@ -36,8 +37,6 @@ type Project = {
   } | null;
   tasks?: any[];
 };
-
-const API_URL = "http://localhost:3001";
 
 const priorityIconMap = {
   HIGH: <SignalHigh className="w-3.5 h-3.5 text-red-500" />,

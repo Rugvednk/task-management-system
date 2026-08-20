@@ -3,6 +3,7 @@
 import { useState } from "react";
 import ThemeMenu from "./components/ThemeMenu";
 import { LogIn, ArrowRight } from "lucide-react";
+import { API_URL } from "./lib/api";
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
@@ -12,7 +13,7 @@ export default function Home() {
     localStorage.setItem("guest", "true");
 
     try {
-      await fetch("http://localhost:3001/seed", { method: "POST" }).catch(() => {});
+      await fetch(`${API_URL}/seed`, { method: "POST" }).catch(() => {});
     } catch {
       // ignore server offline during SSR or fallback
     }

@@ -27,6 +27,7 @@ import {
 } from "lucide-react";
 import ThemeMenu from "../components/ThemeMenu";
 import Sidebar from "../components/Sidebar";
+import { API_URL } from "../lib/api";
 
 type Member = {
   id: string;
@@ -68,8 +69,6 @@ type Task = {
   subtasks?: Subtask[];
   comments?: Comment[];
 };
-
-const API_URL = "http://localhost:3001";
 
 const priorityConfig = {
   URGENT: { label: "Urgent", bg: "bg-red-500/10 text-red-600 dark:text-red-400 border-red-500/20" },

@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState, ReactNode } from "react";
+import { API_URL } from "../lib/api";
 
 export type UserProfile = {
   id: string;
@@ -17,8 +18,6 @@ type UserContextType = {
   updateUser: (updatedData: Partial<UserProfile>) => Promise<boolean>;
   refreshUser: () => Promise<void>;
 };
-
-const API_URL = "http://localhost:3001";
 
 const UserContext = createContext<UserContextType | undefined>(undefined);
 

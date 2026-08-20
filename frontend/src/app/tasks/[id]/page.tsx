@@ -25,6 +25,7 @@ import {
   X,
   RotateCcw,
 } from "lucide-react";
+import { API_URL } from "../../lib/api";
 
 type TaskDetail = {
   id: string;
@@ -45,8 +46,6 @@ type ActivityLog = {
   createdAt: string;
   user?: { fullName: string };
 };
-
-const API_URL = "http://localhost:3001";
 
 const priorityIconMap = {
   URGENT: <SignalHigh className="w-3.5 h-3.5 text-red-500" />,
